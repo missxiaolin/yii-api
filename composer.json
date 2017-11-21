@@ -29,6 +29,11 @@
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1"
     },
+    "autoload": {
+        "files": [
+            "common/help/helpers.php"
+        ]
+    },
     "config": {
         "process-timeout": 1800
     },
