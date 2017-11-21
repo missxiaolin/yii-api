@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "630d5f1d19e73b0163f900453171fba5",
+    "content-hash": "544e61b93740c7768d2008a3760f398c",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -166,6 +166,48 @@
                 "markdown-extra"
             ],
             "time": "2017-07-16T21:13:23+00:00"
+        },
+        {
+            "name": "cyneek/yii2-routes",
+            "version": "0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Patroklo/yii2-static-laravel-routes.git",
+                "reference": "80b93f3bf1ab44993a80e60f55c89931d141016f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/Patroklo/yii2-static-laravel-routes/80b93f3bf1ab44993a80e60f55c89931d141016f.zip",
+                "reference": "80b93f3bf1ab44993a80e60f55c89931d141016f",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "cyneek\\yii2\\routes\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Patroklo",
+                    "email": "patroklo@gmail.com"
+                }
+            ],
+            "description": "Routing and filtering extension system for Yii2 framework that emulates the Laravel routing system.",
+            "keywords": [
+                "filter",
+                "route",
+                "yii",
+                "yii2"
+            ],
+            "time": "2015-12-22T11:05:02+00:00"
         },
         {
             "name": "doctrine/lexer",
