@@ -1,6 +1,7 @@
 <?php
 namespace frontend\modules\v1\controllers;
 
+use xiaolin\Support\Str;
 use Yii;
 
 class UserController extends BaseController
@@ -11,6 +12,6 @@ class UserController extends BaseController
      */
     public function actionIndex()
     {
-        dump(1);
+        dump(Str::random(6));
     }
 }

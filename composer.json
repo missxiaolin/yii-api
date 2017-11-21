@@ -20,7 +20,8 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "cyneek/yii2-routes": "^0.0.4",
         "apache/thrift": "^0.10.0",
-        "symfony/var-dumper": "^3.3"
+        "symfony/var-dumper": "^3.3",
+        "xiaolin/support-str": "^0.0.1"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -40,7 +41,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
+            "url": "https://packagist.laravel-china.org"
         }
     ]
 }
