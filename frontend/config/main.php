@@ -9,8 +9,20 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'routes'],
     'controllerNamespace' => 'frontend\controllers',
+    'modules' => [
+        'routes' => [
+            'class' => 'cyneek\yii2\routes\Module',
+            // 'active' => FALSE, //取消激活模块
+            'routes_dir' => [
+                require(__DIR__ . '/routes.php'),
+            ],
+        ],
+        'v1' => [
+            'class' => 'frontend\modules\v1\Module',
+        ],
+    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',

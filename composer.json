@@ -19,7 +19,8 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "cyneek/yii2-routes": "^0.0.4",
-        "apache/thrift": "^0.10.0"
+        "apache/thrift": "^0.10.0",
+        "symfony/var-dumper": "^3.3"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
